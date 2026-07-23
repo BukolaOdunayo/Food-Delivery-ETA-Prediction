@@ -171,4 +171,4 @@ Python · pandas · scikit-learn · XGBoost · SciPy (`linear_sum_assignment`) �
 
 ## Acknowledgments
 
-Dataset and initial ETA-prediction framing inspired by [Akash Samantray's Berlin Food Delivery ETA project](https://github.com/Akash-045/berlin-food-delivery-eta-prediction), built on the same [Kaggle Food Delivery Dataset](https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset). This project extends the single-model ETA framing into a six-module operational platform.
+Dataset from [Kaggle Food Delivery Dataset](https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset).
