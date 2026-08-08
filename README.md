@@ -7,7 +7,7 @@
 
 ## Why this project
 
-Most "ML portfolio" repos show one model solving one Kaggle leaderboard metric. Real ML engineering roles rarely look like that — you're asked to predict something (ETA), plan around it (staffing, dispatch), rank things with it (partner matching), police it (fraud), optimize with it (assignment), and keep it alive (monitoring/retraining). This project uses a **single food-delivery dataset** to build all six, with one core regression model reused as the scoring function for three of them — the same way a real ETA model gets reused across a logistics stack rather than living in its own silo.
+Most "ML portfolio" repos show one model solving one Kaggle leaderboard metric. Real ML engineering roles rarely look like that you're asked to predict something (ETA), plan around it (staffing, dispatch), rank things with it (partner matching), police it (fraud), optimize with it (assignment), and keep it alive (monitoring/retraining). This project uses a **single food-delivery dataset** to build all six, with one core regression model reused as the scoring function for three of them the same way a real ETA model gets reused across a logistics stack rather than living in its own silo.
 
 **Dataset:** [Food Delivery Dataset (Kaggle)](https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset) — 45,593 training / 11,399 test real food-delivery orders: restaurant & delivery coordinates, weather, traffic density, delivery-partner attributes, and delivery time.
 
