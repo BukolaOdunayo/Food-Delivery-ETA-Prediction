@@ -154,15 +154,6 @@ Or open any notebook in `notebooks/` — each one runs standalone and is already
 
 ---
 
-## Limitations & honest caveats
-
-- Delivery-partner "availability" for the recommendation/optimization modules is simulated by sampling historical partner profiles — this dataset has no real-time partner-availability feed.
-- Demand forecasting has only ~44 days of history; a production version would want months of data and hourly (not just daily) granularity per city for shift-level staffing decisions.
-- Fraud detection has no ground-truth labels to validate precision/recall against — it's an honest unsupervised framing, not a claim of validated fraud-catch rate.
-- Distance is haversine (straight-line), not routing-API road distance.
-
----
-
 ## Tools & technologies
 
 Python · pandas · scikit-learn · XGBoost · SciPy (`linear_sum_assignment`) · Isolation Forest · Streamlit · Plotly · Jupyter
