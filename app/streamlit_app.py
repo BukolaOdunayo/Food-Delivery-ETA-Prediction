@@ -1,5 +1,5 @@
 """
-Berlin Food Delivery — ETA & Ops Intelligence Platform
+Food Delivery — ETA & Ops Intelligence Platform
 Interactive demo tying together all 6 modules built on the Kaggle
 Food Delivery Dataset: ETA prediction, demand forecasting, partner
 recommendation, fraud detection, logistics optimization, and monitoring.
